@@ -101,10 +101,10 @@ do {
             //echo "[>] [".$getJson['user']['username']."] Kullanicisinin [".$getJson['id']."] idli medyasi zaten begenilmis! \n";
         }
     if($maxLike == $likedCount){
-        echo "\n\n===============================================================";
+        echo "\n\n===============================================================\n";
         echo "[!] Toplam [".$likedCount."] Gonderi Begenildi! \n";
         echo "[!] Bu Yuzden [".$sleepAfter."] Saniye Sonra Islem Yapilacak!";
-        echo "===============================================================\n\n";
+        echo "\n===============================================================\n\n";
         sleep($sleepAfter);
         $likedCount = null;
     }
